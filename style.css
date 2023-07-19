@@ -233,3 +233,35 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/* style end */
+.game-install-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+    margin-top: 70px;
+}
+.text-area{
+   width: 35%;
+   text-align: right;
+   
+}
+.install-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.install-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+}
+.gun-image{
+    margin-bottom: -300px;
+margin-left: 150px;
+}
+.smole-images{
+   
+}
+.images-area{
+    
+}

@@ -50,6 +50,26 @@
     .video-title{
         text-align: center;
     }
+    .game-install-area{
+       flex-direction: column;
+       width: 50%;
+       margin-left: 60px;
+    }
+    .text-area{
+        text-align: center;
+        width: 250%;
+       
+    }
+    .install-title{
+        text-align: center;
+        width: 130%;
+    }
+    .install-description{
+        margin-left: 80px;
+    }
+   .images-area{
+    width: 20%;
+   }
     
 }
 @media screen and (max-width:768px) {
@@ -91,6 +111,16 @@
     .video-containt{
         flex-direction: column;
         margin-left: 270px;
+    }
+    .game-install-area{
+        flex-direction: column;
+        width:160%;
+        margin-left: 60px;
+     }
+     .text-area{
+        text-align: center;
+        width: 50%;
+       
     }
     
 }
