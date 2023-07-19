@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 5%;
 }
 .section-hero{
@@ -78,3 +78,111 @@ body{
     color: green;
 }
 /* navber style end */
+/* <!-- start banner style section --> */
+.banner-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0B0223;
+}
+.banner-title2{
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.banner-text ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.banner-text ul li{
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+    line-height: 2;
+}
+
+.btn-sign a{
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 45px;
+    background-color: #FF42A5;
+    border-radius: 40px;
+    text-decoration: none;
+   position: absolute;
+   
+    
+  
+}
+.btn-go a{
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 45px;
+    background-color: #4EC5F7;
+    border-radius: 40px;
+    text-decoration: none;
+    position: absolute;
+  margin-left: 180px;
+}
+.banner-image {
+    width: 711px;
+}
+/* end header section style */
+.gamer-everyone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.everyone-text{
+    text-align: right;
+}
+.every-title{
+    font-size: 47px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.every-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    line-height: 1.5;
+}
+.purpos{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 75px;
+    color: #534C64;
+}
+.btn-more a{
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 50px;
+    background-color: #FF42A5;
+    border-radius: 40px;
+    text-decoration: none;
+   position: absolute;
+  margin-left: -200px;
+   
+}
+.unleash{
+    color: #534C64;
+   font-size: 30px;
+   margin-left: -150px;
+}
+.every-image{
+    width: 700px;
+}

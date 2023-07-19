@@ -1,21 +1,33 @@
 @media screen and (max-width:400px){
     .section-hero{
         flex-direction: column;
+        
     }
     .logo-conteiner{
-       margin-right: 150px;
+      margin-left: 250px;
     }
     .navber-menu ul{
         flex-direction: column;
-        margin-right: 0px;
+        margin-left: 250px;
+        text-align: center;
         
     }
     .icon-color{
-      margin-right: 0px;
-      width: 400px;
+     width: 500px;
+      
+    }
+    .icone{
+        margin-right: 130px;
     }
     .navber-menu ul li a{
      
+    }
+    .banner-area{
+       flex-direction: column;
+    }
+    .banner-image{
+        margin-top: 50px;
+        width: 350px;
     }
     
 }
@@ -23,12 +35,20 @@
    
     .section-hero{
         flex-direction: column;
-       margin-left: -150px;
+       margin-left: 20px;
     }
     .navber-menu ul{
         flex-direction: column;
         margin-top: 30px;
         
+    }
+    .banner-area{
+        flex-direction: column;
+        margin-top: 50px;
+     }
+     .banner-image{
+        margin-top: 50px;
+        width: 400px;
     }
     
 }
