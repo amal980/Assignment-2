@@ -43,6 +43,13 @@
      margin-left: -200px;
       width: 100%;
     }
+    .video-containt{
+        flex-direction: column;
+        margin-left: 70px;
+    }
+    .video-title{
+        text-align: center;
+    }
     
 }
 @media screen and (max-width:768px) {
@@ -68,7 +75,7 @@
         flex-direction: column;
       
         width: 80%;
-        margin-left: 50px;
+        margin-left: 200px;
     }
     .everyone-text{
         text-align: center;
@@ -80,6 +87,10 @@
        }
        .unleash{
     margin-left: 10px;
+    }
+    .video-containt{
+        flex-direction: column;
+        margin-left: 270px;
     }
     
 }

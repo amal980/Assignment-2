@@ -136,6 +136,7 @@ body{
 }
 .banner-image {
     width: 711px;
+    margin-top: 50px;
 }
 /* end header section style */
 .gamer-everyone{
@@ -220,4 +221,15 @@ body{
     font-weight: 500;
     color: #534C64;
     margin-top: 15px;
+}
+.funny-video iframe{
+    margin-bottom: 20px;
+    margin-top: -365px;
+    border-radius: 10px;
+    opacity: 30%;
+}
+.funny-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
