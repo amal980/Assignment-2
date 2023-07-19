@@ -12,6 +12,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
 }
 .logo-conteiner{
     display: flex;
@@ -29,14 +32,19 @@ body{
     font-size: 45px;
     font-weight: 700;
 }
+.navber-menu{
+   
+}
 .navber-menu ul{
     display: flex;
     flex: 2;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
 }
 .navber-menu ul li{
     list-style: none;
-  
+    display: inline-block;
 }
 .navber-menu ul li a{
     text-decoration: none;
@@ -44,13 +52,29 @@ body{
     font-size: 18px;
     font-weight: 500px;
     padding: 10px 15px;
+    margin-top: 5px;
+   display: block;
+  
 }
-.icon-color:hover{
+.icon-color{
     background-color: #ededed;
     width: 262px;
     height: 56px;
-    position: relative;
     border-radius: 5px;
-   border-bottom: 2px;
+   
+}
+.icon-color {
+    align-items: center;
+}
+.icone{
+    display: flex;
+    margin-top: -45px ;
+    margin-left: 110px;
+}
+.youtube i{
+    color: red;
+}
+.tiktok i{
+    color: green;
 }
 /* navber style end */

@@ -1,0 +1,34 @@
+@media screen and (max-width:400px){
+    .section-hero{
+        flex-direction: column;
+    }
+    .logo-conteiner{
+       margin-right: 150px;
+    }
+    .navber-menu ul{
+        flex-direction: column;
+        margin-right: 0px;
+        
+    }
+    .icon-color{
+      margin-right: 0px;
+      width: 400px;
+    }
+    .navber-menu ul li a{
+     
+    }
+    
+}
+@media screen and (max-width:768px) {
+   
+    .section-hero{
+        flex-direction: column;
+       margin-left: -150px;
+    }
+    .navber-menu ul{
+        flex-direction: column;
+        margin-top: 30px;
+        
+    }
+    
+}
