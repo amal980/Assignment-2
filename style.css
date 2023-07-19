@@ -186,3 +186,38 @@ body{
 .every-image{
     width: 700px;
 }
+
+/* main section style end */
+
+.video-containt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.video-containt{
+    width: 342px;
+    padding: 10px;
+}
+.video{
+    width: 300px;
+    height:360px;
+}
+.video-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+    text-align: center;
+}
+.video-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    text-align: center;
+}
+.funny-video p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+    margin-top: 15px;
+}

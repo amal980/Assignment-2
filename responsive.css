@@ -24,10 +24,24 @@
     }
     .banner-area{
        flex-direction: column;
+       margin-left: 250px;
     }
     .banner-image{
-        margin-top: 50px;
+        margin-top: 70px;
         width: 350px;
+    }
+    .gamer-everyone{
+        flex-direction: column;
+        margin-left: 150px;
+        width: 100%;
+    }
+    .everyone-text{
+        text-align: center;
+        
+    }
+    .btn-more a{
+     margin-left: -200px;
+      width: 100%;
     }
     
 }
@@ -49,6 +63,23 @@
      .banner-image{
         margin-top: 50px;
         width: 400px;
+    }
+    .gamer-everyone{
+        flex-direction: column;
+      
+        width: 80%;
+        margin-left: 50px;
+    }
+    .everyone-text{
+        text-align: center;
+        
+    }
+    .btn-more a{
+        margin-left: -150px;
+         width:40%;
+       }
+       .unleash{
+    margin-left: 10px;
     }
     
 }
