@@ -190,6 +190,9 @@ body{
 
 /* main section style end */
 
+.funny-videos-area{
+
+}
 .video-containt{
     display: flex;
     justify-content: space-between;
@@ -209,6 +212,9 @@ body{
     font-weight: 700;
     color: #0B0223;
     text-align: center;
+}
+.funny-video{
+
 }
 .video-description{
     font-size: 18px;
@@ -306,15 +312,17 @@ margin-left: 150px;
 
 .footer-contant{
     background-color: #0B0223;
-    width: 100%;
-    height: 636px;
-}
+     height: 636px;
+ }
 .footer-area{
    
     color: #fff;
     text-align: center;
-   margin-top: 80px;
-    margin: auto;
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+    margin: 120px 50px 50px 0px;
+    position: absolute;
 }
 .logo-footer{
     margin-bottom: -50px;
@@ -324,7 +332,6 @@ margin-left: 150px;
     margin-left: 160px;
     font-size: 45px;
     font-weight: 700;
-
 }
 .our-story ul{
     display: flex;
@@ -347,12 +354,14 @@ margin-left: 150px;
 
 .footer-icone{
     margin-top: 50px;
-    
 }
 .footer-icone a{
     color: #fff;
     margin: 30px;
     font-size: 30px;
+}
+.policy{
+    
 }
 .policy ul{
     display: flex;

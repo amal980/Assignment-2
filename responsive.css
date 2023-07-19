@@ -1,4 +1,8 @@
 @media screen and (max-width:400px){
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .section-hero{
         flex-direction: column;
         
@@ -40,19 +44,35 @@
         
     }
     .btn-more a{
-     margin-left: -200px;
-      width: 100%;
+        border: 0;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 21px 50px;
+        background-color: #FF42A5;
+        border-radius: 40px;
+        text-decoration: none;
+       position: absolute;
+      margin-left: -200px;
+    }
+    .funny-videos-area{
+        margin-left: 167px;
+        width: 100%;
     }
     .video-containt{
         flex-direction: column;
-        margin-left: 70px;
+        margin-right: 20px;
+    }
+    .funny-video{
+        margin-left: -528px;
+        width: 100%;
     }
     .video-title{
         text-align: center;
     }
     .game-install-area{
        flex-direction: column;
-       width: 50%;
+       width: 100%;
        margin-left: 60px;
     }
     .text-area{
@@ -91,7 +111,12 @@
 .game-content p:hover{
     color: #FF42A5;
 }
-
+.footer-contant{
+    width: 300%;
+}
+.footer-area{
+    width: 260%;
+}
     
 }
 @media screen and (max-width:768px) {
@@ -124,11 +149,11 @@
         
     }
     .btn-more a{
-        margin-left: -150px;
-         width:40%;
+        margin-left: -120px;
+         width:27%;
        }
        .unleash{
-    margin-left: 10px;
+    margin-left: -30px;
     }
     .video-containt{
         flex-direction: column;
@@ -168,6 +193,15 @@
 }
 .game-content p:hover{
     color: #FF42A5;
+}
+.footer-contant{
+    width: 135%;
+}
+.footer-area{
+    width: 110%;
+}
+.policy{
+    margin-left: -83px;
 }
        
     
